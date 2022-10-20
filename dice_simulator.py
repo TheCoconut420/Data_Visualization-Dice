@@ -1,6 +1,6 @@
+from cgitb import reset
 import random
 
 class Dice:
     def roll():
-        result = random.randint(1, 6) + random.randint(1, 6)
-        return result
+        return random.randint(1, 6) + random.randint(1, 6)

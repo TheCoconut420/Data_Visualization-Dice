@@ -12,7 +12,7 @@ class Main():
         self.visualization = visualization.Visualization()
 
     def main(self):
-        for i in range(10000):
+        for i in range(100000):
             result = self.dice_simulator.roll()
             self.write_data_to_file.write_data_to_file(result)
         data = process_data.ProcessData.get_amount_of_numbers(process_data.ProcessData.process())
